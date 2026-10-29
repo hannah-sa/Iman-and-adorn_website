@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Order | Iman and Adorn Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Links for jQuery Accordion -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+  	<script>
+  	    $( function() {
+   		    $( "#accordion" ).accordion();
+  		} );
+  	</script>
+    <!-- Custom CSS styling accordion -->
+	<style>
+		.ui-widget {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+    	    font-size: 1em;
+    	    width: 80%;
+		}
+		.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    	    border: 1px solid #b091e1;
+    	    background: #b091e1;
+    	    font-weight: normal;
+    	    color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+    <div id="wrapper"> 
+        <!-- ====HEADER==== --> 
+        <header>
+            <img src="_images/logo.png" alt="Iman and Adorn Logo">
+            <div id="headerRight">
+                <h1>Iman and Adorn Jewelry</h1>
+                <nav id="topLinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li>Contact & Order</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ====MAIN==== -->
+        <main>
+            <div id="mainContents">
+                <section id="leftSide">
+                    <article id="orderInstructions">
+                        <h2>How to order</h2>
+                        <!-- jQuery Structure for Accordian -->
+				        <div id="accordion">
+  					        <h3>Step 1</h3>
+  					        <div>
+						        <h2>1. Browse our collection</h2>
+						        <p>Explore our Products Page or our Instagram feed for the bracelet/s you want.</p>
+  					        </div>
+  					        <h3>Step 2</h3>
+  					        <div>
+						        <h2>2. Check availability</h2>
+					  	        <p>Ensure the item is in stock by contacting us below.</p>
+  					        </div>
+  					        <h3>Step 3</h3>
+  					        <div>
+						        <h2>3. Send us a message</h2>
+					 	        <p>Contact us with the following details: item/s name/s, quantity and/or description and your preferred colour or size. Fill out the Contact & Order form below. We will contact you as soon as possible after that.</p>
+					        </div>
+                            <h3>Step 4</h3>
+  					        <div>
+						        <h2>4. Send payment</h2>
+					 	        <p>Once the process of ordering your bracelet is complete, we will send you our banking details and total the amount. We deliver through PUDO for R60 and pickup depends on your location within Durban.</p>
+					        </div>
+				        </div>
+                    </article>
+                    <article id="googleForm">
+                        <h2>Contact & Order Form</h2>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegYePxgE0eQCta6Je5ct320FX_XSF0VOxW6_X81ULXSqTPqA/viewform?embedded=true" width="830" height="988" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </article>
+                </section>
+                <aside>
+                    <article id="contactDetails">
+                        <img src="_images/logo.png" alt="Logo">
+                        <h3>Contact Details:</h3>
+                        <ul>
+                            <li>Instagram: <a href="https://www.instagram.com/imanandadorn_za/" target="_blank">@imanandadorn_za</a> </li>
+                            <li>Area: Durban</li>
+                        </ul>
+                    </article>
+                    <article id="priceList">
+                        <h3>Price List:</h3>
+                        <ul>
+                            <li>Standard Bracelet - R30</li>
+                            <li>Premium Bracelet - R35</li>
+                            <li>Set of 2 Bracelets - R50</li>
+                            <li>Set of 4 Bracelets - R120</li>
+                            <li>Set of 5 Beaded Rings - R55</li>
+                        </ul>
+                        <h4>Custom Order Prices:</h4>
+                        <p>Custom bracelets are the same price as the regular bracelets, including charms, with the exception of having add-ons like letters or numbers. Depending on how lengthly your add-ons are, the price will increase.</p>
+                    </article>
+                </aside>
+            </div>
+        </main>
+
+        <!-- ====FOOTER==== -->
+        <footer>
+            <!-- Instagram logo & username with links -->
+            <div>
+                <a href="https://www.instagram.com/imanandadorn_za/" target="_blank"><img src="_images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.instagram.com/imanandadorn_za/" target="_blank">@imanandadorn_za</a> 
+            </div>
+            <!-- Business's copyright -->
+            <div>
+                <p><strong>&copy;Iman and Adorn Jewelry 2026</strong></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
